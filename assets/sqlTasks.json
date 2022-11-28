@@ -1,0 +1,27 @@
+[
+  {
+    "id": 13,
+    "description": "Adatbázis létrehozása",
+    "adminPage": false
+  },
+  {
+    "id": 15,
+    "description": "1.5 méter széles parkolóhelyek",
+    "adminPage": true
+  },
+  {
+    "id": 16,
+    "description": "Új parkolóhely típus és módosítás",
+    "adminPage": false
+  },
+  {
+    "id": 17,
+    "description": "Kovács Anna foglalásai",
+    "adminPage": true
+  },
+  {
+    "id": 18,
+    "description": "Legnagyobb tartozással bíró motors bérlő",
+    "adminPage": true
+  }
+]

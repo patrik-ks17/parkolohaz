@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Zsák utcai Parkolóház weboldala" />
+    <meta name="author" content="Zsák utcai Parkolóház Kft." />
+
+    <!-- Ikonkészlet -->
+    <script src="assets/fa-all.js"></script>
+    <!-- Bootrsap CSS -->
+    <link href="assets/bootstrap.css" rel="stylesheet" />
+
+
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="parkolohaz.css">
+    <title>Parkolóház</title>
+</head>
+
+<body id="page-top">
+    <!-- Navigáció -->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Zsák utcai Parkolóház</a>
+            <button
+                class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+                type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#szolgaltatasok" class="nav-link rounded js-scroll-trigger">Szolgáltatások</a></li>
+                    <li class="nav-item"><a href="#rolunk" class="nav-link rounded js-scroll-trigger">Rólunk</a></li>
+                    <li class="nav-item"><a href="#kapcsolat" class="nav-link rounded js-scroll-trigger">Kapcsolat</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Fejléc -->
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image-->
+            <img class="masthead-avatar mb-5" src="assets/img/main.png" alt="Logó" />
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading text-uppercase mb-0">Parkolóház a város szívében</h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light mb-0">Vigyázunk autójára!</p>
+        </div>
+    </header>
+
+
+    <!-- Szolgáltatások -->
+    <section class="page-section szolgaltatasok" id="szolgaltatasok">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-uppercase text-secondary">Szolgáltatások</h2>
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Szolgaltatáselemek -->
+            <div class="row">
+                <div class="szolgaltatasok-item mx-auto col-md-4" data-toggle="modal" data-target="#szolgaltatasokModal1">
+                    <div class="szolgaltatasok-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="szolgaltatasok-item-caption-content text-center text-white"><i
+                                class="fas fa-plus fa-3x"></i></div>
+                    </div>
+                    <img class="img-fluid" src="assets/img/szolgaltatasok/parkolohaz.jpg" alt="Parkolóházi helyek" />
+                </div>
+                <div class="szolgaltatasok-item mx-auto col-md-4" data-toggle="modal" data-target="#szolgaltatasokModal2">
+                    <div class="szolgaltatasok-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="szolgaltatasok-item-caption-content text-center text-white"><i
+                                class="fas fa-plus fa-3x"></i></div>
+                    </div>
+                    <img class="img-fluid" src="assets/img/szolgaltatasok/parkolohaz-sorompo.jpg"
+                        alt="Parkolóház sorompó" />
+                </div>
+                <div class="szolgaltatasok-item mx-auto col-md-4" data-toggle="modal" data-target="#szolgaltatasokModal3">
+                    <div class="szolgaltatasok-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="szolgaltatasok-item-caption-content text-center text-white"><i
+                                class="fas fa-plus fa-3x"></i></div>
+                    </div>
+                    <img class="img-fluid" src="assets/img/szolgaltatasok/applikacio.jpg"
+                        alt="Könnyen használható mobilalkalmazás" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rólunk -->
+    <section class="page-section bg-primary text-white mb-0" id="rolunk">
+        <div class="container">
+            <h2 id="rolunk-felirat">RÓLUNK</h2>
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 ml-auto">
+                    <p>
+                        A Zsák utcai parkolóház 1995-ben épült, kifejezetten az új városrész megnövekedett autós
+                        forgalmára adott válaszként.</p>
+                </div>
+                <div class="col-lg-4 mr-auto">
+                    <p>
+                        Célunk, hogy könnyen megközelíthető, kényelmesen használható parkolóházat biztosítsunk Önnek,
+                        hogy mindig biztonságban érezhesse autóját!</p>
+                </div>
+
+                <div class="col-lg-4 mr-auto">
+                <p>Hosszú és rövid távra is bérelhet nálunk parkolóhelyet, legyen szó akár autóról, akár
+                    motorkerékpárról. Bővebb információért írjon nekünk az alábbi űrlap segítségével!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kapcsolat -->
+    <section class="page-section" id="kapcsolat">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Kapcsolat</h2>
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <p class="lead ">Kérjük, töltse ki az alábbi jelentkezési lapot, és egy munkatársunk hamarosan felveszi
+                Önnel a kapcsolatot.</p>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <form id="contactForm" name="sentMessage">
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <input class="form-control" id="name" type="text" placeholder="Név" />
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <input class="form-control" id="email" type="text" placeholder="E-mail cím" />
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <input class="form-control" id="phone" type="text" placeholder="Telefonszám" />
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <textarea class="form-control" id="message" rows="2"
+                                    placeholder="Mennyi időre és hány parkolóhelyet szeretne bérelni?"></textarea>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            <button class="btn btn-primary btn-xl" id="sendMessageButton" type="button"
+                                onclick="velemenyKuldes()">Üzenet küldése
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lábléc -->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Egyéb elérhetőségeink:</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#"><i
+                            class="fab fa-fw fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-fw fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#"><i
+                            class="fab fa-fw fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-fw fa-dribbble"></i></a>
+                </div>
+
+                <div class="col-lg-8">
+                    <h4 class="text-uppercase mb-4">Tudta?</h4>
+                    <p class="lead mb-0 text-left">
+                        Amíg ezen a weboldalon tartózkodott, összesen
+                        <span id="szamlalo">0</span>
+                        elektromos autót gyártottak a világban! Mi 15 elektromos töltőállomással várjuk elektromos
+                        autóval rendelkező ügyfeleinket.
+                        <br />
+                        A részletekről érdeklődjön a jelentkezési lapon!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Copyright -->
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Zsák utcai parkolóház ©2021</small></div>
+    </div>
+
+    <div class="scroll-to-top d-lg-none position-fixed">
+        <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i
+                class="fa fa-chevron-up"></i></a>
+    </div>
+
+    <!-- Szolgáltatások felugró kártyái -->
+    <!-- Parkolóházunk felugró kártya -->
+    <div class="szolgaltatasok-modal modal fade" id="szolgaltatasokModal1" tabindex="-1" role="dialog"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+
+                                <h2 class="szolgaltatasok-modal-title text-secondary text-uppercase text-center mb-0">
+                                    Parkolóházunk
+                                </h2>
+
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+
+                                <div class="row justify-content-center">
+                                    <img class="img-fluid rounded mb-5" src="assets/img/modals/parking-garage.jpg"
+                                        alt="Parkolóház helyek" />
+                                </div>
+
+                                <p>Kellemes, hatékony parkolási megoldást kínálunk, kedvező feltételekkel, rövid és
+                                    hosszú távra egyaránt! Parkolóházunkban összesen 120, kényelmes be- és kiállást
+                                    nyújtó parkolóhelyet biztosítunk ügyfeleink számára.</p>
+                                <button class="btn btn-primary" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Bezár
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Beléptetés felugró kártya -->
+    <div class="szolgaltatasok-modal modal fade" id="szolgaltatasokModal2" tabindex="-1" role="dialog"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+
+                                <h2 class="szolgaltatasok-modal-title text-secondary text-uppercase text-center mb-0">
+                                    Beléptetés
+                                </h2>
+
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+
+                                <div class="row justify-content-center">
+                                    <img class="img-fluid rounded mb-5" src="assets/img/modals/rfid.jpg"
+                                        alt="RFID olvasó rendszer" />
+                                </div>
+
+                                <p>A beléptetés automatizált sorompórendszer segítségével történik, melyet egy RFID
+                                    kártyával, az érzékelőhöz való érintéssel nyithat és zárhat a regisztrált jármű
+                                    tulajdonosa.</p>
+                                <button class="btn btn-primary" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Bezár
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Mobilalkalmazás felugró kártya -->
+    <div class="szolgaltatasok-modal modal fade" id="szolgaltatasokModal3" tabindex="-1" role="dialog"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+
+                                <h2 class="szolgaltatasok-modal-title text-secondary text-uppercase text-center mb-0">
+                                    Mobilalkalmazás
+                                </h2>
+
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+
+                                <div class="row justify-content-center">
+                                    <img class="img-fluid rounded mb-5" src="assets/img/modals/application.jpg"
+                                        alt="Mobilalkalmazás" />
+                                </div>
+
+                                <p>Parkolóházunkba már mobilalkalmazás segítségével is regisztrálhat. Az applikációval könnyedén azonosíthatja magát a beléptető kapuknál. Az alkalmazás ezen felül segít Önnek elnavigálni a kijelölt parkolóhelyhez is.</p>
+                                <button class="btn btn-primary" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Bezár
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap, és függőségei -->
+    <script src="assets/jquery.min.js"></script>
+    <script src="assets/bootstrap.bundle.min.js"></script>
+    <script src="assets/jquery.easing.min.js"></script>
+
+    <!-- Téma-specifikus szkriptek -->
+    <script src="assets/scripts.js"></script>
+
+    <script src="parkolohaz.js"></script>
+</body>
+
+</html>
