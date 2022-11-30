@@ -21,7 +21,7 @@ var dbName = 'parkolohaz';
 var db = {
     host: 'localhost',
     user: 'root',
-    password: '',
+    password: 'Passw123',
     database: dbName
 };
 
@@ -97,7 +97,7 @@ router.get('/mysqlServerStatus', function (req, res, next) {
         const dbOnly = {
             host: 'localhost',
             user: 'root',
-            password: '',
+            password: 'Passw123',
         };
         const sqlQuery = ' select version();';
         const connection = mysql.createConnection(dbOnly);
